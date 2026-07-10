@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+
+/* NAVBAR */
+
+.navbar .nav-link.active{
+
+    color:#ffc107 !important;
+    font-weight:600;
+
+}
+
+
+.navbar .nav-link:hover{
+
+    color:#ffc107 !important;
+
+}
+
+
+
+/* HERO */
+
+.hero{
+
+    position:relative;
+    height:100vh;
+    overflow:hidden;
+
+}
+
+
+.hero video{
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+
+
+.overlay{
+
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.55);
+
+}
+
+
+.hero .container{
+
+    position:relative;
+    z-index:2;
+
+}
+
+
+
+/* CARDS */
+
+.card img{
+
+    height:250px;
+    object-fit:cover;
+
+}
+
+
+.card{
+
+    border-radius:20px;
+    transition:0.4s;
+
+}
+
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
