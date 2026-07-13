@@ -93,3 +93,42 @@ body{
     transform:translateY(-10px);
 
 }
+
+/* carousal */
+
+.slider{
+    width:100%;
+    /* max-width:900px; */
+    height:500px;
+    margin:auto;
+    overflow:hidden;
+}
+
+.slides{
+    display:flex;
+    width:300%;
+    animation: slide 5s infinite;
+    margin-top: 50px;
+}
+
+.slides img{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+}
+
+@keyframes slide{
+
+    0%,30%{
+        transform:translateX(0);
+    }
+
+    35%,65%{
+        transform:translateX(-33.33%);
+    }
+
+    70%,100%{
+        transform:translateX(-66.66%);
+    }
+
+}
